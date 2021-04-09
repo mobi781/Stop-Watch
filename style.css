@@ -1,11 +1,35 @@
 body{
-    /* background: #E2A9F3; */
+    background-image: url(30100.jpg);
     text-align: center;
 }
 #tile{
     border: 5px solid red;
     border-width: 2px;
-  border-color: red;
+    display: inline-flex;
+  border-color: gray;
+  border-radius: 5px;
+}
+#watch{
+    /* border: 5px solid grey; */
+    border-radius: 0px;
+    border-top: 2px solid grey;
+}
+#main{
+    background-color: darkcyan;
+    margin: 50px auto;
+    opacity: 75%;
+    font-style: italic;
+    color: floralwhite;
+    
+    /* display: inline; */
+    border-radius: 5px;
+    border-style: double;
+    border:lightblue solid;
+    width: 400px;
+    height: 250px;
+    overflow: auto;
+
+
 }
 .btn1{
      display: inline-block;

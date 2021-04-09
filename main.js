@@ -11,14 +11,17 @@ var timer;
 function msecf() {
     msec++
     msech.innerHTML = msec;
-    if (msec > 100) {
+    if (msec >= 100) {
         sec++
         sech.innerHTML = sec;
         msec = 0;
-    } else if (sec > 60) {
+    } else if (sec >= 60) {
+        sec = 0;
         min++
         minh.innerHTML = min;
-        sec = 0;
+
+    } else if (min >= 60) {
+        min = 0;
     }
 
 
